@@ -27,78 +27,78 @@ const Meetings = () => {
     {
       id: 1,
       title: "Monthly Fellowship",
-      date: "April 25, 2025",
-      description: "A powerful time of worship and Bible study focused on the Book of John.",
+      date: "April 29, 2025",
+      description: "All glory to God! we had our 14th youth fellowship which involved people from various parts of the city!",
       image: pic10
     },
     {
       id: 2,
       title: "Monthly Fellowship",
-      date: "April 10, 2025",
-      description: "Night of intense prayer and intercession for our community and nation.",
+      date: "March 22, 2025",
+      description: "All glory to God! we had our 13th youth fellowship which involved people from various parts of the city!",
       image: pic9
     },
     {
       id: 3,
       title: "Monthly Fellowship",
-      date: "March 28, 2025",
-      description: "Special worship night with live music and testimonies from members.",
+      date: "February 22, 2025",
+      description: "All glory to God! we had our 1st year Anniversary for our CHOSEN FEW FELLOWSHIP which involved people from various parts of the city!",
       image: pic8
     },
     {
       id: 4,
       title: "Monthly Fellowship",
-      date: "March 15, 2025",
-      description: "Deep dive into the Book of Romans and its application in our daily lives.",
+      date: "January 24, 2025",
+      description: "All glory to God! we had our Eleventh youth fellowship which involved people from various parts of the city!",
       image: pic7
     },
     {
       id: 5,
       title: "Monthly Fellowship",
-      date: "February 28, 2025",
-      description: "Serving our local community through various charitable activities.",
+      date: "November 14, 2024",
+      description: "All glory to God! we had our 5th youth fellowship which involved people from various parts of the city!",
       image: pic5
     },
     {
       id: 6,
       title: "Monthly Fellowship",
-      date: "February 10, 2025",
-      description: "Annual youth conference with guest speakers and workshops.",
+      date: "October 25, 2024",
+      description: "All glory to God! we had our 4th youth fellowship which involved people from various parts of the city!",
       image: pic4
     },
     {
       id: 7,
       title: "Monthly Fellowship",
-      date: "February 10, 2025",
-      description: "Annual youth conference with guest speakers and workshops.",
+      date: "September 21, 2024",
+      description: "All glory to God! we had our 3rd youth fellowship which involved people from various parts of the city!",
       image: pic3
     },
     {
       id: 8,
       title: "Monthly Fellowship",
-      date: "February 10, 2025",
-      description: "Annual youth conference with guest speakers and workshops.",
+      date: "August 16, 2024",
+      description: "All glory to God! we had our 2nd youth fellowship which involved people from various parts of the city!",
       image: pic2
     },
     {
       id: 9,
       title: "Praise and Worship",
-      date: "February 10, 2025",
-      description: "Annual youth conference with guest speakers and workshops.",
+      date: "August 7, 2024",
+      description: "We had an amazing time today worshipping the Lord as a band. Very glad to have Jachin on board.",
       image: pic6
     },
     {
       id: 10,
       title: "Monthly Fellowship",
-      date: "February 10, 2025",
-      description: "Annual youth conference with guest speakers and workshops.",
+      date: "July 26, 2024",
+      description: "All glory to God! we had our 1st youth fellowship which involved people from various parts of the city!",
       image: pic1
     },
     {
       id: 11,
       title: "Chosen Few Core Team",
-      date: "February 10, 2025",
-      description: "Annual youth conference with guest speakers and workshops.",
+      date: "July 25, 2024",
+      description: "Officially presenting, The Chosen Few's Core Team.",
       image: pic0
     }
   ];
