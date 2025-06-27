@@ -9,7 +9,7 @@ const PrayerWall = () => {
   useEffect(() => {
     const fetchPrayers = async () => {
       try {
-        const res = await fetch("http://localhost:5050/api/prayers/public");
+        const res = await fetch("https://chosen-few-backend.onrender.com/api/prayers/public");
         const data = await res.json();
         setPrayers(data);
       } catch (err) {

@@ -7,7 +7,7 @@ const AdminDashboard = () => {
   useEffect(() => {
     const fetchRequests = async () => {
       try {
-        const res = await fetch("http://localhost:5050/api/prayers/admin");
+        const res = await fetch("https://chosen-few-backend.onrender.com/api/prayers/admin");
         const data = await res.json();
         setRequests(data);
       } catch (err) {

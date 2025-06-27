@@ -24,7 +24,7 @@ const PrayerRequest = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:5050/api/prayers", {
+      const response = await fetch("https://chosen-few-backend.onrender.com/api/prayers", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
