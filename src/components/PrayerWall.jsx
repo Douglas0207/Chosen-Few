@@ -51,13 +51,13 @@ const PrayerWall = () => {
               <p className="mb-4">{prayer.prayerRequest}</p>
               <div className="flex justify-between items-center">
                 <p className="text-gray-500">{prayer.name}</p>
-                <button
+                {/* <button
                   onClick={() => handlePrayerClick(prayer._id)}
                   className="flex items-center gap-2 text-chosen-orange hover:text-amber-600 transition-colors"
                 >
                   <Heart size={16} />
                   <span>{prayer.prayerCount || 0} praying</span>
-                </button>
+                </button> */}
               </div>
             </div>
           ))}
