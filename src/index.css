@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 100% 99%;
+    --foreground: 20 10% 5%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 20 10% 5%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 10% 5%;
+
+    --primary: 32 100% 50%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 214 100% 92%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 43 90% 74%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 32 100% 50%;
+
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+
+  p, span, a, button, input, textarea {
+    @apply font-sans;
+  }
+}
+
+.christian-icon {
+  @apply opacity-70 text-chosen-orange;
+}
+
+.sermon-gradient {
+  background: linear-gradient(to right, rgba(255, 122, 0, 0.05), rgba(211, 228, 253, 0.2), rgba(255, 122, 0, 0.05));
+}
+
+.testimony-card {
+  @apply bg-white p-4 rounded-lg shadow-md border border-chosen-blue/20 flex flex-col gap-2 min-w-[300px] md:min-w-[350px] mx-4;
+}
+
+.prayer-card {
+  @apply bg-white p-6 rounded-lg shadow-md border-l-4 border-l-chosen-orange mb-4;
+}
+
+.team-card {
+  @apply bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 flex flex-col items-center text-center;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-bold mb-6 text-center relative;
+}
+
+.section-title::after {
+  content: "";
+  @apply block h-1 w-16 bg-chosen-orange mt-2 mx-auto rounded-full;
+}
+
+.verse-card {
+  @apply bg-chosen-blue/10 p-6 rounded-lg border-l-4 border-chosen-orange italic text-lg;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.sticky-navbar {
+  @apply fixed top-0 left-0 right-0 bg-white bg-opacity-95 shadow-md z-50 transition-all duration-300;
+}
+
+.section-padding {
+  @apply py-16 md:py-24;
+}
+
+@keyframes infinite-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-infinite-scroll {
+  animation: infinite-scroll 60s linear infinite;
+  display: flex;
+  width: max-content;
+}
+
+/* Animation for scroll links */
+.scroll-animation {
+  @apply transition-all duration-500 transform hover:-translate-y-1;
+}
+
+/* Animation for card elements */
+.card-animation {
+  @apply transition-all duration-300 transform hover:scale-105;
+}
+
+/* Animation for button hover */
+.button-animation {
+  @apply transition-all duration-300 transform hover:scale-105 hover:-translate-y-1;
+}
