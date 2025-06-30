@@ -1,4 +1,3 @@
-markdown
 # Chosen Few – Ministry Management Web Platform ✝️
 
 A full-stack web application designed to streamline ministry operations through digital prayer request submissions, dashboard-based access, and secure data management. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), the platform supports team collaboration and modernizes communication within ministries.
