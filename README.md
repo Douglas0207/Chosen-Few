@@ -1,12 +1,7 @@
-Absolutely! Below is the complete **README.md** in one **consistent format**, written as a single block of Markdown text, ready to copy-paste as-is. The formatting is preserved, and the `Getting Started` section is included with a brief, clean description.
-
----
-
-````markdown
+markdown
 # Chosen Few – Ministry Management Web Platform ✝️
 
 A full-stack web application designed to streamline ministry operations through digital prayer request submissions, dashboard-based access, and secure data management. Built using the MERN stack (MongoDB, Express.js, React.js, Node.js), the platform supports team collaboration and modernizes communication within ministries.
-
 
 ---
 
@@ -46,6 +41,53 @@ https://chosen-few.vercel.app/
 
 ---
 
+## 🚀 Getting Started
+
+To run the project locally, clone the repository and install the dependencies for both frontend and backend. Then start both servers using the provided npm scripts.
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/chosen-few-ministry-platform.git
+cd chosen-few-ministry-platform
+````
+
+```bash
+# Install backend dependencies
+cd backend
+npm install
+
+# Start backend
+npm run dev
+```
+
+```bash
+# Install frontend dependencies
+cd ../frontend
+npm install
+
+# Start frontend
+npm start
+```
+
+---
+
+## 📁 Folder Structure
+
+```
+chosen-few/
+├── backend/
+│   ├── controllers/
+│   ├── routes/
+│   ├── models/
+│   └── server.js
+├── frontend/
+│   ├── components/
+│   ├── pages/
+│   └── App.js
+```
+
+---
+
 ## 🔮 Upcoming Features
 
 * Authentication (JWT or OAuth)
@@ -68,9 +110,4 @@ This project was built to support **Chosen Few**, a youth-led ministry committed
 📧 [robinson4jesuschrist@gmail.com](mailto:robinson4jesuschrist@gmail.com)
 🔗 [LinkedIn](https://linkedin.com/in/robinson02072004)
 
-```
 
----
-
-Let me know once you’ve added the actual deployment links and GitHub repo so I can help you generate a dynamic preview badge or add screenshots if needed.
-```
